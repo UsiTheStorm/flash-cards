@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -5,6 +6,15 @@
 body {
   font-family: sans-serif;
   padding: 20px;
+  background-color: #fae1fd;
+  color: #3b066c;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: #5300a0;
 }
 
 .flashcards {
@@ -14,8 +24,8 @@ body {
 }
 
 .flashcards div {
-  border: 1px solid #e7e7e7;
-  background-color: #f7f7f7;
+  border: 1px solid #ae4ed43f;
+  background-color: #e4c0f7;
   border-radius: 7px;
   aspect-ratio: 2 / 1;
   display: flex;
